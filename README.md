@@ -114,13 +114,6 @@ The project is implemented entirely in Python using commonly adopted data scienc
 
 Overall, addressing class imbalance was essential. **Class weighting and SMOTE outperformed undersampling**, while Logistic Regression showed lower variance and more stable behavior across runs.
 
-------|------------------------|-----------------|----------------|
-| Logistic Regression | Class-weighted | ~0.65 – 0.70 | Stable and interpretable, strong baseline |
-| Logistic Regression | SMOTE (Train only) | ~0.65 – 0.71 | Slight improvement in recall for defaults |
-| Logistic Regression | Undersampling | ~0.63 – 0.69 | Performance drops due to data loss |
-| Support Vector Machine | Class-weighted | ~0.67 – 0.70 | Captures nonlinear patterns well |
-| Support Vector Machine | SMOTE | ~0.66 – 0.71 | Comparable to weighted SVM |
-| Random Forest | Various strategies | Competitive | Robust but less interpretable |
 
 
 ---
